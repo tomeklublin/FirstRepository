@@ -5,5 +5,44 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "26706346-3da16783-1033-446f-92ec-3d8a512a7d37"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "CreateANewOrganization",
+			"id": "29ccc443-9292-458b-8756-26bee04ba02a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "api.trello.com/1/organizations?displayName=TrelloGitHub&key={{key}}&token={{token}}",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations"
+					],
+					"query": [
+						{
+							"key": "displayName",
+							"value": "TrelloGitHub"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }
