@@ -16,7 +16,8 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "api.trello.com/1/organizations?displayName=TrelloGitHub&key={{key}}&token={{token}}",
+					"raw": "https://api.trello.com/1/organizations?displayName=TrelloPostman&key={{key}}&token={{token}}",
+					"protocol": "https",
 					"host": [
 						"api",
 						"trello",
@@ -29,7 +30,7 @@
 					"query": [
 						{
 							"key": "displayName",
-							"value": "TrelloGitHub"
+							"value": "TrelloPostman"
 						},
 						{
 							"key": "key",
